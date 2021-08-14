@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pemrograman Dasar</string>
+    <string name="todo">todo</string>
+    <string name="copyright">\u00A9 2021 Universitas Negeri Yogyakarta</string>
+    <string name="title_home">Media Pembelajaran Pemrograman Dasar SMK</string>
+    <string name="kikd"><![CDATA[KI & KD]]></string>
+    <string name="materi">Materi</string>
+    <string name="video">Video</string>
+    <string name="kuis">Kuis</string>
+    <string name="pustaka">Pustaka</string>
+    <string name="info">Info</string>
+    <string name="untuk_smk_kelas_x">Untuk SMK Kelas X</string>
+    <string name="pemorograman_dasar">PEMROGRAMAN DASAR</string>
+    <string name="media_pembelajaran">Media Pembelajaran</string>
+    <string name="judul">Judul</string>
+    <string name="home">Home</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="content">Content</string>
+    <string name="content_title">Content Title</string>
+    <string name="intro">Intro</string>
+    <string name="lewati">Lewati</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
