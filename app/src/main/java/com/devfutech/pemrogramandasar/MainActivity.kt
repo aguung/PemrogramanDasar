@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                 super.onBackPressed()
             }
             this.doubleBackToExitPressedOnce = true
-            toast("Tolon tekan lagi untuk keluar")
+            toast("Tolong tekan lagi untuk keluar")
             Handler(Looper.getMainLooper()).postDelayed(
                 { doubleBackToExitPressedOnce = false },
                 2000

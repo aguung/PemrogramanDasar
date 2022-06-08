@@ -68,7 +68,7 @@ class InfoFragment : Fragment() {
                     pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES)
                     val i = Intent(Intent.ACTION_VIEW)
                     i.type = "text/plain"
-                    val text = "YOUR TEXT HERE"
+                    val text = "Halo"
                     i.putExtra(Intent.EXTRA_TEXT,text)
                     i.data = Uri.parse(url)
                     startActivity(i)

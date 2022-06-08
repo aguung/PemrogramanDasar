@@ -35,25 +35,25 @@ class VideoFragment : Fragment() {
     private fun setupAction() {
         binding.apply {
             btnPengantar.setOnClickListener {
-                openBrowser("https://youtu.be/60K7zxIjHQo")
+                openBrowser("https://youtu.be/nRxQQPo7ahE")
             }
             btnDeskriptif.setOnClickListener {
-                openBrowser("https://youtu.be/I-pbjWd9EHo")
+                openBrowser("https://youtu.be/4XEVbvHTkcQ")
             }
             btnFlowchart.setOnClickListener {
-                openBrowser("https://youtu.be/u1huXRBkSbE")
+                openBrowser("https://youtu.be/N9cPu3LjKY0")
             }
             btnPseudocode.setOnClickListener {
-                openBrowser("https://youtu.be/zqhQMGjNCmw")
+                openBrowser("https://youtu.be/JcedBtAH5y8")
             }
             btnVariable.setOnClickListener {
-                openBrowser("https://youtu.be/oPaK-QQ3Ho4")
+                openBrowser("https://youtu.be/gtzxt8bYn7E")
             }
             btnTipe.setOnClickListener {
-                openBrowser("https://youtu.be/xY3HF99wHtg")
+                openBrowser("https://youtu.be/fCuajrJAbYY")
             }
             btnOperator.setOnClickListener {
-                openBrowser("https://youtu.be/pe3VxboDe2U")
+                openBrowser("https://youtu.be/fKmukX93lkM")
             }
         }
     }

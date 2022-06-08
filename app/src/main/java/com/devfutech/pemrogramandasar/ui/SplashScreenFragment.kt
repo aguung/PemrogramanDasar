@@ -39,13 +39,13 @@ class SplashScreenFragment : Fragment() {
 
     private fun setupAction() {
         Handler(Looper.getMainLooper()).postDelayed({
-            appPreferences.intro.asLiveData().observe(viewLifecycleOwner, { intro ->
+            appPreferences.intro.asLiveData().observe(viewLifecycleOwner) { intro ->
                 if (intro) {
                     findNavController().navigate(R.id.action_splashScreenFragment_to_homeFragment)
                 } else {
                     findNavController().navigate(R.id.action_splashScreenFragment_to_introFragment)
                 }
-            })
+            }
         }, 3000L)
     }
 

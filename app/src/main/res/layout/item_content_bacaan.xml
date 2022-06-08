@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:textSize="@dimen/_14ssp"
                 android:text="@string/content_title"
                 android:textColor="#3E3E3E" />
 
@@ -60,6 +61,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_background_corner_blue"
                 android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_12ssp"
                 android:text="@string/content" />
         </LinearLayout>
 
